@@ -3,7 +3,7 @@ Java Minesweeper is a replica of the original Minesweeper, of the most popular s
 
 This project was created using IntelliJ IDEA.
 
-### Screenshots
+## Screenshots
 
 <img width="1036" alt="minesweeper-1" src="https://user-images.githubusercontent.com/108126122/234721443-86f8ea64-91b4-4a93-9beb-990c35fe15f1.png">
 <img width="1036" alt="minesweeper-2" src="https://user-images.githubusercontent.com/108126122/234721480-f3687e03-f80b-4a81-af01-3c2644b08c3c.png">
