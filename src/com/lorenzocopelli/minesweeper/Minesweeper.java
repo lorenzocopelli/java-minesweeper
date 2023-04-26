@@ -6,7 +6,7 @@ public class Minesweeper
 {
     public static void main(String[] args)
     {
-        JFrame frame = new MinesweeperForm("Java Minesweeper");
+        JFrame frame = new MinesweeperForm("Minesweeper");
         frame.setVisible(true);
     }
 }

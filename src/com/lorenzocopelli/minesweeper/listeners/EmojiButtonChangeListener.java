@@ -1,4 +1,6 @@
-package com.lorenzocopelli.minesweeper;
+package com.lorenzocopelli.minesweeper.listeners;
+
+import com.lorenzocopelli.minesweeper.MinesweeperForm;
 
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
@@ -17,15 +19,15 @@ public class EmojiButtonChangeListener implements ChangeListener
     @Override
     public void stateChanged(ChangeEvent e)
     {
-        ButtonModel buttonModel = minesweeperForm.getEmojiButton().getModel();
+        JButton emojiButton = minesweeperForm.getEmojiButton();
 
-        if (buttonModel.isArmed())
+        if (emojiButton.getModel().isArmed())
         {
-            minesweeperForm.getEmojiButton().setBorder(new BevelBorder(BevelBorder.LOWERED));
+            emojiButton.setBorder(new BevelBorder(BevelBorder.LOWERED));
         }
         else
         {
-            minesweeperForm.getEmojiButton().setBorder(new BevelBorder(BevelBorder.RAISED));
+            emojiButton.setBorder(new BevelBorder(BevelBorder.RAISED));
         }
     }
 }

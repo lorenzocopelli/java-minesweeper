@@ -42,9 +42,11 @@
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <font name="DS-Digital" size="42" style="0"/>
+                      <enabled value="true"/>
+                      <font name="Digital-7 Mono" size="48" style="0"/>
                       <foreground color="-65536"/>
                       <text value="000"/>
+                      <verticalTextPosition value="0"/>
                     </properties>
                   </component>
                 </children>
@@ -64,7 +66,7 @@
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <font name="DS-Digital" size="42" style="0"/>
+                      <font name="Digital-7 Mono" size="48" style="0"/>
                       <foreground color="-65536"/>
                       <text value="000"/>
                     </properties>
