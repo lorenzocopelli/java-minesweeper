@@ -51,5 +51,7 @@ public class MineButtonActionListener implements ActionListener
             mineButton.setIcon(new ImageIcon(mineIconURL));
             mineButton.setPressedIcon(new ImageIcon(mineIconURL));
         }
+
+        minesweeperForm.repaint();
     }
 }

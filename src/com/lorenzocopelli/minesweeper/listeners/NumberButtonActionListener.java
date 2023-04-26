@@ -94,5 +94,7 @@ public class NumberButtonActionListener implements ActionListener
             numberButton.setIcon(new ImageIcon(numberIconURL));
             numberButton.setPressedIcon(new ImageIcon(numberIconURL));
         }
+
+        minesweeperForm.repaint();
     }
 }
