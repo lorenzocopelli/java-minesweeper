@@ -30,9 +30,6 @@ public class GameTimer
             if (elapsedSeconds == Constants.timeLimit)
             {
                 stop();
-                minesweeperForm.disableButtons();
-                minesweeperForm.showMineButtons();
-                minesweeperForm.setLoserEmojiIcon();
             }
         }
     }
