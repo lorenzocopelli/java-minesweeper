@@ -24,13 +24,13 @@ public class GameTimer
                 return;
             }
 
+            if (elapsedSeconds >= Constants.timeLimit)
+            {
+                return;
+            }
+
             ++elapsedSeconds;
             minesweeperForm.getTimeLabel().setText(Utils.zeroFill(String.valueOf(elapsedSeconds), 3));
-
-            if (elapsedSeconds == Constants.timeLimit)
-            {
-                stop();
-            }
         }
     }
 
